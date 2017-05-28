@@ -1,9 +1,9 @@
 <?php
 
-define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASS","123");
-define("DB_NAME", "likes");
+define("DB_HOST", "yourdatabase host");
+define("DB_USER", "your database user");
+define("DB_PASS","your database pass");
+define("DB_NAME", "your database name");
 
 spl_autoload_register(function($className){
 
